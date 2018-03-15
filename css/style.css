@@ -13,9 +13,41 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 420px;
+  width: 405px;
+  background-color: black;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 45px;
+  background-color: #ECE8E9;
+
+}
+
+.location {
+  border-bottom: 1px solid #C8C5C5;
+
+}
+
+.location:hover {
+  background-color: #A7A3A4;
+}
+
+.arrow {
+  float: right;
+  position: relative;
+  top: -45px;
+  padding-right: 20px;
+
+}
+
+section h1 {
+  padding: 10px 0 15px 15px;
+  font-size:18px;
+  font-weight: 750;
+}
+
+section h3 {
+  padding: 0 0 15px 15px;
+  font-size:12px;
+  font-weight: 650;
 }
